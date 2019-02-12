@@ -1,4 +1,5 @@
 source("https://bioconductor.org/biocLite.R")
 biocLite("graph")
 biocLite("RBGL")
+biocLite("Rgraphviz")
 install.packages("rjags") 
