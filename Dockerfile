@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
 #
 # Install R packages for Bayes
 #
-ADD installBayes.R /tmp/install.R
+ADD install.R /tmp/install.R
 #RUN R CMD BATCH /tmp/install.R
 RUN Rscript /tmp/install.R
 
