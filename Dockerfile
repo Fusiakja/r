@@ -1,4 +1,4 @@
-FROM Fusiakja/r
+FROM fusiakja/r
 
 MAINTAINER Fusiakja
 
