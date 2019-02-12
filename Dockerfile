@@ -16,9 +16,9 @@ RUN apt-get update && apt-get install -y \
 #
 # Install R packages for Bayes
 #
-ADD install.R /tmp/install.R
-#RUN R CMD BATCH /tmp/install.R
-RUN Rscript /tmp/install.R
+ADD installBayes.R /tmp/installBayes.R
+#RUN R CMD BATCH /tmp/installBayes.R
+RUN Rscript /tmp/installBayes.R
 
 # Switch back to default user 
 USER $NB_USER
