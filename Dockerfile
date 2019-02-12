@@ -1,4 +1,4 @@
-FROM fusiakja/r
+FROM jupyter/r-notebook
 
 MAINTAINER Fusiakja
 
