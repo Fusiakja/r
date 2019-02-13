@@ -1,4 +1,4 @@
-FROM Fusiakja/DockerStack
+FROM fusiakja/DockerStack
 
 MAINTAINER Fusiakja
 
