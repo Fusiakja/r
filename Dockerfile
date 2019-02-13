@@ -1,4 +1,4 @@
-FROM jupyter/r-notebook
+FROM Fusiakja/DockerStack
 
 MAINTAINER Fusiakja
 
