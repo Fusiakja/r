@@ -1,6 +1,6 @@
 FROM jupyter/r-notebook
 
-MAINTAINER cdeck3r
+MAINTAINER fusiak
 
 # for install purposes
 USER root
