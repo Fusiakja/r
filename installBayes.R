@@ -3,7 +3,7 @@ biocLite("graph")
 biocLite("RBGL")
 biocLite("Rgraphviz")
 
-install.packages("rjags", repos="http://ftp.gwdg.de/pub/misc/cran/", dependencies=TRUE, clean=TRUE) 
+install.packages("rjags", repos="http://ftp.gwdg.de/pub/misc/cran/", dependencies=TRUE, clean=TRUE, configure.args="--enable-rpath") 
 install.packages("HydeNet", repos="http://ftp.gwdg.de/pub/misc/cran/", dependencies=TRUE, clean=TRUE) 
 
 install.packages("gRain", repos="http://ftp.gwdg.de/pub/misc/cran/", dependencies=TRUE, clean=TRUE)
