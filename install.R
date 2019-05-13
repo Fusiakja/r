@@ -1,3 +1,5 @@
 install.packages("rjags", repos="http://ftp.gwdg.de/pub/misc/cran/", dependencies=TRUE, clean=TRUE, configure.args="--enable-rpath") 
 install.packages("dygraphs")
 install.packages("plotly")
+install.packages("tidyverse")
+install.packages("ggplot2")
